@@ -1,10 +1,10 @@
 # YOLO Strawberry Count
 This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in videos which includes:
-### Fine-tuning YOLOv8 on a labeled strawberry image dataset
+- Fine-tuning YOLOv8 on a labeled strawberry image dataset
 ![val_batch0_labels](https://github.com/user-attachments/assets/c03fcdfc-fa57-4acd-a79b-f01191e09e2f)
-### Applying the trained model to video frames "test.mp4" for real-time strawberry detection 
+- Applying the trained model to video frames "test.mp4" for real-time strawberry detection
+- Counting the number of strawberries in each frame and aggregating the total
 <img width="1269" height="743" alt="image" src="https://github.com/user-attachments/assets/d1eebfe1-0991-4747-96f8-eae6d02774e6" />
 
-### Counting the number of strawberries in each frame and aggregating the total
-
+Results from YOLOv8 Fine-tuning
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/1a91ae4c-b725-4852-924e-528b60e968a9" />
